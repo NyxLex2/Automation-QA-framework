@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="competency test SUITE" verbose="5" thread-count="1" parallel="methods">
+    <test name="parallel" thread-count="1">
+        <packages>
+            <package name="api.*"/>
+        </packages>
+    </test>
+    <test name="UI Tests" thread-count="1">
+        <packages>
+            <package name="ui.*"/>
+        </packages>
+    </test>
+</suite>
